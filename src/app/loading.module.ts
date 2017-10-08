@@ -3,7 +3,7 @@ import {RouterModule} from '@angular/router';
 
 @Component({
   selector: 'loading-screen',
-  template: `<h3>Loading...</h3>`
+  template: `<h3>Hello World I am loading</h3>`
 })
 export class LoadingScreen {}
 

@@ -1,1 +1,20 @@
-{}
+{
+  "dynamic": {
+    "group": [
+      {
+        "name": "firebaes",
+        "urls": {
+          "https://ngstore-feb94.firebaseio.com/": {
+            "match": "prefix"
+          }
+        },
+        "cache": {
+          "optimizeFor": "performance",
+          "maxAgeMs": 3600000,
+          "maxEntries": 20,
+          "strategy": "lru"
+        }
+      }
+    ]
+  }
+}

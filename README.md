@@ -28,4 +28,12 @@ In Windows, you must run the above commands in Bash prefixed by `./node_modules/
 
 ### See the talk for more details
 
+## TODO:
+keep in mind lazy loading routes,
+update main.ts for promise,
+ngsw-manifest.json (add url and cache scheme)
+```bash
+yarn add @angular/service-worker ng-pwa-tools
+```
+
 
